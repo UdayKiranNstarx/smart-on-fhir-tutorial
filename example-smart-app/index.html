@@ -91,7 +91,8 @@
         },
 
         //Display 'Failed to call FHIR Service' if extractData failed
-        function() {
+          function () {
+              console.log("it is here");
           $('#loading').hide();
           $('#errors').html('<p> Failed to call FHIR Service </p>');
         }
